@@ -162,7 +162,7 @@ SMenuItem optionMenu[] = {
     MENU_MAKE_DISABLED  (""),
     MENU_MAKE_CHECKBOX  (21000, "  退出时自动保存即时存档并在启动时自动加载", 0),
     MENU_MAKE_DISABLED  (""),
-    MENU_MAKE_PICKER    (69696, "  调色板", "选取一个您中意 NES 色彩调色板", optionsForPalette, DIALOGCOLOR_CYAN),
+    MENU_MAKE_PICKER    (69696, "  调色板", "选取您喜爱 NES 调色板", optionsForPalette, DIALOGCOLOR_CYAN),
     MENU_MAKE_DISABLED  (""),
     MENU_MAKE_HEADER1   ("游戏设置"),
     MENU_MAKE_PICKER    (10000, "  跳帧", "跳帧可以加快游戏速度,但可能会导致画面不平滑", optionsForFrameskip, DIALOGCOLOR_CYAN),
